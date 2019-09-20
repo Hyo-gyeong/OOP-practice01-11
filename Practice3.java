@@ -1,4 +1,3 @@
-//ÄÄÇ»ÅÍÇĞ°ú 20190975 ½ÅÈ¿°æ
 import java.util.Scanner;
 
 public class Practice3 {
@@ -7,13 +6,13 @@ public class Practice3 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("»ç°¢ÇüÀÇ °¡·Î: ");
+		System.out.print("ì‚¬ê°í˜•ì˜ ê°€ë¡œ: ");
 		int width = input.nextInt();
 		
-		System.out.print("»ç°¢ÇüÀÇ ¼¼·Î: ");
+		System.out.print("ì‚¬ê°í˜•ì˜ ì„¸ë¡œ: ");
 		int height = input.nextInt();
 
-		System.out.println("»ç°¢ÇüÀÇ ³ĞÀÌ´Â "+ width * height + "ÀÔ´Ï´Ù.");
+		System.out.println("ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ” "+ width * height + "ì…ë‹ˆë‹¤.");
 		
 		input.close();
 	}
