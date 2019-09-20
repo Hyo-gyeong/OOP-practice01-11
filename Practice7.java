@@ -1,4 +1,3 @@
-//ÄÄÇ»ÅÍÇĞ°ú 20190975 ½ÅÈ¿°æ
 import java.util.Scanner;
 
 public class Practice7 {
@@ -9,14 +8,14 @@ public class Practice7 {
 		
 		Scanner input = new Scanner(System.in);
 
-		System.out.print("¿ø±âµÕÀÇ ¹İÁö¸§ : ");
+		System.out.print("ì›ê¸°ë‘¥ì˜ ë°˜ì§€ë¦„ : ");
 		int r = input.nextInt();
-		System.out.print("¿ø±âµÕÀÇ ³ôÀÌ: ");
+		System.out.print("ì›ê¸°ë‘¥ì˜ ë†’ì´: ");
 		int h = input.nextInt();
 		
 		double volume = PI * r * r * h;
 		
-		System.out.println("¿ø±âµÕÀÇ ºÎÇÇ´Â "+ volume);
+		System.out.println("ì›ê¸°ë‘¥ì˜ ë¶€í”¼ëŠ” "+ volume);
 		
 		input.close();
 	}
