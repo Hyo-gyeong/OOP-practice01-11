@@ -1,4 +1,3 @@
-//ÄÄÇ»ÅÍÇĞ°ú 20190975 ½ÅÈ¿°æ
 import java.util.Scanner;
 
 public class Practice4 {
@@ -7,10 +6,10 @@ public class Practice4 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("¿øÇÏ´Â ¸¶ÀÏÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.print("ì›í•˜ëŠ” ë§ˆì¼ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 		double mile = input.nextDouble();
 		double kilo = mile * 1.609;
-		System.out.print(mile+"¸¶ÀÏÀº "+kilo+"Å³·ÎÀÔ´Ï´Ù.");
+		System.out.print(mile+"ë§ˆì¼ì€ "+kilo+"í‚¬ë¡œì…ë‹ˆë‹¤.");
 		
 		input.close();		
 	}
