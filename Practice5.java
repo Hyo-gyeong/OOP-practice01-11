@@ -1,4 +1,3 @@
-//ÄÄÇ»ÅÍÇĞ°ú 20190975 ½ÅÈ¿°æ
 import java.util.Scanner;
 
 public class Practice5 {
@@ -7,17 +6,17 @@ public class Practice5 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("¹ŞÀº µ· : ");
+		System.out.print("ë°›ì€ ëˆ : ");
 		int getMoney = input.nextInt();
 		
-		System.out.print("»óÇ°ÀÇ ÃÑ¾× : ");
+		System.out.print("ìƒí’ˆì˜ ì´ì•¡ : ");
 		int total = input.nextInt();
 		
 		double surtax = total * 0.1;
-		System.out.println("ºÎ°¡¼¼ : " + (int)surtax);
+		System.out.println("ë¶€ê°€ì„¸ : " + (int)surtax);
 		
 		int change = getMoney - total;
-		System.out.print("ÀÜµ· : "+ change);
+		System.out.print("ì”ëˆ : "+ change);
 		
 		input.close();
 	}
