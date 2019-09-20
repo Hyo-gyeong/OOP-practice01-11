@@ -1,4 +1,4 @@
-//ÄÄÇ»ÅÍÇĞ°ú 20190975 ½ÅÈ¿°æ
+
 import java.util.Scanner;
 
 public class Practice10 {
@@ -9,13 +9,13 @@ public class Practice10 {
 		
 		Scanner input = new Scanner(System.in);
 
-		System.out.print("¿ø»ÔÀÇ ¹İÁö¸§: ");
+		System.out.print("ì›ë¿”ì˜ ë°˜ì§€ë¦„: ");
 		int r = input.nextInt();
-		System.out.print("¿ø»ÔÀÇ ³ôÀÌ: ");
+		System.out.print("ì›ë¿”ì˜ ë†’ì´: ");
 		int h = input.nextInt();
 		
 		double semiVolume = PI * r * r * h;
-		System.out.println("¿ø»ÔÀÇ ºÎÇÇ´Â "+semiVolume/3);
+		System.out.println("ì›ë¿”ì˜ ë¶€í”¼ëŠ” "+semiVolume/3);
 		
 		input.close();
 	}
