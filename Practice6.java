@@ -1,4 +1,4 @@
-//ÄÄÇ»ÅÍÇĞ°ú 20190975 ½ÅÈ¿°æ
+
 import java.util.Scanner;
 
 public class Practice6 {
@@ -7,11 +7,11 @@ public class Practice6 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("ÀÌ¸§: ");
+		System.out.print("ì´ë¦„: ");
 		String name = input.next();
-		System.out.print("³ªÀÌ: ");
+		System.out.print("ë‚˜ì´: ");
 		int age = input.nextInt();
-		System.out.println("ÀÌ¸§Àº "+name+"ÀÌ°í ³ªÀÌ´Â "+age+"¼¼ÀÔ´Ï´Ù.");
+		System.out.println("ì´ë¦„ì€ "+name+"ì´ê³  ë‚˜ì´ëŠ” "+age+"ì„¸ì…ë‹ˆë‹¤.");
 		
 		input.close();
 	}
