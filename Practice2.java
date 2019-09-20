@@ -1,4 +1,3 @@
-//ÄÄÇ»ÅÍÇĞ°ú 20190975 ½ÅÈ¿°æ
 public class Practice2 {
 
 	public static void main(String[] args) {
@@ -6,9 +5,9 @@ public class Practice2 {
 		int width = 10;
 		int height = 20;
 		
-		System.out.println("°¡·Î ±æÀÌ: " + width + "\n");
-		System.out.println("¼¼·Î ±æÀÌ: "+ width + "\n");
-		System.out.println("»ç°¢ÇüÀÇ ³ĞÀÌ: "+ width * height + "\n");
+		System.out.println("ê°€ë¡œ ê¸¸ì´: " + width + "\n");
+		System.out.println("ì„¸ë¡œ ê¸¸ì´: "+ width + "\n");
+		System.out.println("ì‚¬ê°í˜•ì˜ ë„“ì´: "+ width * height + "\n");
 	}
 
 }
