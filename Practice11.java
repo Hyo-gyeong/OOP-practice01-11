@@ -1,4 +1,4 @@
-//ÄÄÇ»ÅÍÇĞ°ú 20190975 ½ÅÈ¿°æ
+
 import java.util.Scanner;
 
 public class Practice11 {
@@ -7,11 +7,11 @@ public class Practice11 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("È­¾¾¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		System.out.print("í™”ì”¨ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 		int fahrenheit = input.nextInt();
 		
 		double celsius = (double)(fahrenheit - 32) * 5 / 9;
-		System.out.println("È­¾¾ " + fahrenheit + "µµ´Â ¼·¾¾" + celsius+"¿¡ ÇØ´çÇÕ´Ï´Ù.");
+		System.out.println("í™”ì”¨ " + fahrenheit + "ë„ëŠ” ì„­ì”¨" + celsius+"ì— í•´ë‹¹í•©ë‹ˆë‹¤.");
 		
 		input.close();
 
