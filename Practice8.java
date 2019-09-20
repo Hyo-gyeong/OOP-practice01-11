@@ -1,4 +1,3 @@
-//ÄÄÇ»ÅÍÇĞ°ú 20190975 ½ÅÈ¿°æ
 import java.util.Scanner;
 
 public class Practice8 {
@@ -7,20 +6,20 @@ public class Practice8 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("500¿ø Â¥¸®ÀÇ °³¼ö: ");
+		System.out.print("500ì› ì§œë¦¬ì˜ ê°œìˆ˜: ");
 		int c500 = input.nextInt();
 		
-		System.out.print("100¿ø Â¥¸®ÀÇ °³¼ö: ");
+		System.out.print("100ì› ì§œë¦¬ì˜ ê°œìˆ˜: ");
 		int c100 = input.nextInt();
 		
-		System.out.print("50¿ø Â¥¸®ÀÇ °³¼ö: ");
+		System.out.print("50ì› ì§œë¦¬ì˜ ê°œìˆ˜: ");
 		int c50 = input.nextInt();
 		
-		System.out.print("10¿ø Â¥¸®ÀÇ °³¼ö: ");
+		System.out.print("10ì› ì§œë¦¬ì˜ ê°œìˆ˜: ");
 		int c10 = input.nextInt();
 		
 		int total = 500 * c500 + 100 * c100 + 50 * c50 + 10 * c10;
-		System.out.println("Àú±İÅë¿¡ ÀÖ´Â ÃÑ¾× : " + total+"¿ø");
+		System.out.println("ì €ê¸ˆí†µì— ìˆëŠ” ì´ì•¡ : " + total+"ì›");
 		
 		input.close();
 
