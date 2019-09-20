@@ -1,4 +1,3 @@
-//ÄÄÇ»ÅÍÇĞ°ú 20190975 ½ÅÈ¿°æ
 import java.util.Scanner;
 
 public class Practice9 {
@@ -7,7 +6,7 @@ public class Practice9 {
 
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("°Å½º¸§µ· ÃÑ¾×: ");
+		System.out.print("ê±°ìŠ¤ë¦„ëˆ ì´ì•¡: ");
 		int change = input.nextInt();
 		
 		int c500 = change / 500;
@@ -20,10 +19,10 @@ public class Practice9 {
 		
 		int c10 = rest2 % 50 / 10;
 		
-		System.out.println("500¿øÂ¥¸® µ¿Àü : " + c500 + "°³");
-		System.out.println("100¿øÂ¥¸® µ¿Àü : " + c100 + "°³");
-		System.out.println("50¿øÂ¥¸® µ¿Àü : " + c50 + "°³");
-		System.out.println("10¿øÂ¥¸® µ¿Àü : " + c10 + "°³");
+		System.out.println("500ì›ì§œë¦¬ ë™ì „ : " + c500 + "ê°œ");
+		System.out.println("100ì›ì§œë¦¬ ë™ì „ : " + c100 + "ê°œ");
+		System.out.println("50ì›ì§œë¦¬ ë™ì „ : " + c50 + "ê°œ");
+		System.out.println("10ì›ì§œë¦¬ ë™ì „ : " + c10 + "ê°œ");
 		
 		input.close();
 
