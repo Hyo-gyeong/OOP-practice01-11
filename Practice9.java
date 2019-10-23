@@ -9,15 +9,27 @@ public class Practice9 {
 		System.out.print("거스름돈 총액: ");
 		int change = input.nextInt();
 		
+		//int c500 = change / 500;
+		//int rest1 = change % 500;
+		
+		//int c100 = rest1 /100;
+		//int rest2 = rest1 % 100;
+		
+		//int c50 = rest2 / 50;
+		
+		//int c10 = rest2 % 50 / 10;
+		
+		//변수 많이 만들이 않으려면
 		int c500 = change / 500;
-		int rest1 = change % 500;
+		change = change % 500;
 		
-		int c100 = rest1 /100;
-		int rest2 = rest1 % 100;
+		int c100 = change /100;
+		change = change % 100;
 		
-		int c50 = rest2 / 50;
+		int c50 = change / 50;
+		change = change % 50;
 		
-		int c10 = rest2 % 50 / 10;
+		int c10 = change / 10;
 		
 		System.out.println("500원짜리 동전 : " + c500 + "개");
 		System.out.println("100원짜리 동전 : " + c100 + "개");
