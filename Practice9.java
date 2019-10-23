@@ -19,7 +19,7 @@ public class Practice9 {
 		
 		//int c10 = rest2 % 50 / 10;
 		
-		//변수 많이 만들이 않으려면
+		//변수 많이 만들지 않으려면
 		int c500 = change / 500;
 		change = change % 500;
 		
